@@ -9,4 +9,10 @@ Your solution:
 git checkout -b questions/no1
 git add .
 git commit -m "FIle1 commited"
-git push -u origin branch-name
+git push -u origin questions/no1
+
+//IF the branch is not upto main
+git checkout main
+git pull origin main
+git checkout questions/no1
+git merge main
